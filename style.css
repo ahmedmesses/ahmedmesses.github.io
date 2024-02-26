@@ -31,7 +31,7 @@ h1{
 .ma{
   background: #fff;
   display:flex;
-  height: 80vh;
+  height: 90vh;
   width:100%;
 }
 .ma video {
@@ -44,7 +44,7 @@ h1{
 .ma h2{
 
   margin-left:35px;
-  margin-top: 80px;
+  margin-top: 50px;
   font-family: "Prata",serif;
   font-weight: 400;
   font-style: normal;
