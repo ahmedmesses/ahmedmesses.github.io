@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>AHMED MESSES</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<body id="top">
+  
+<ul id="social_side_links">
+	<li><a style="background-color: #3c5a96;" href="https://www.facebook.com/profile.php?id=100006428101200&mibextid=LQQJ4d" target="_blank"><img src="https://www.dropbox.com/s/xk5pdj8nks1ymdh/facebook-icon.png?raw=1" alt="" /></a></li>
+	<li><a style="background-color: black" href="https://tiktok.com/@ahmedmesses" target="_blank"><img src="tik.png" alt="" /></a></li>
+	<li><a style="background-color: #209997;filter: invert(1);" href="https://www.instagram.com/ahmedmesses" target="_blank"><img src="insta.png" alt="" /></a></li>
+</ul>
+
+<header><h1>AHMED MESSES</h1></header>
+<div class="mai"></div>
+<div class="ma">
+    <video width="1080" height="1920" controls>
+        <source src="movie.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+      <div>
+        <h2>Hi Babe,</h2>
+        <p></br>
+        This is where you find all about</br>
+        Ahmed Messes's updates and work all across social media</br>
+    </br>
+    Never Forget When he said:</br>
+    "Let the artist in you, draw the world you desire"</br>
+  </br>
+    PS,</br>
+    Babes are the most precious people in this world,</br>
+    so feel precious and become a Babe by following my instagram </br>
+        </p>
+        <div class='social'><a href="https://www.instagram.com/ahmedmesses"><img src='insta.png' width="30" height="30" style="margin-left:35px;"/><h3>@AHMEDMESSES</h3></a></div>
+      </div>
+</div>
+<div class="m"><h2>My Projects</h2>
+<div class="makeup">
+  <div class="carousel">
+    <a class="carousel-item" href="c:\Users\toybo\Desktop\website\Phase d’éxécution (1).pdf"><img src="img/mk1.jpg"><h4>Auditorium Bibliothèque de Tunis</h4></a>
+    <a class="carousel-item" href="c:\Users\toybo\Desktop\website\1.jpg"><img src="img/mk2.jpg"><h4>École Primaire Du Lac 2</h4></a>
+    <a class="carousel-item" href="c:\Users\toybo\Desktop\website\PLANCHE 4.pdf"><img src="img/mk3.jpg"><h4>Maison De L'Architecte À Khairedinne</h4></a>
+    <a class="carousel-item" href="c:\Users\toybo\Desktop\website\stage.pdf"><img src="img/mk4.jpg"><h4>Réamenagement D'Une Maison D'Hôtes</h4></a>
+    <a class="carousel-item" href="c:\Users\toybo\Desktop\website\img\mk5.jpg"><img src="img/mk5.jpg"><h4>Réaménagement D'Une Salon</h4></a>
+  </div>
+</div>
+</div>
+<div class="n"><h2>Makeup</h2>
+  <main>
+    <ul class='slider'>
+      <li class='item'>
+        <div class='testimonial'>
+          <p>"Never underestimate the power of a classic red lipstick"</p>
+          <p>Bridal Makeup</p>
+          <p>Ahmed Messes, 04/10/2023</p>
+        </div>
+        <img class='image' src='img/1.jpg'>
+      </li>
+      <li class='item'>
+        <div class='testimonial'>
+          <p>"Goddess"</p>
+          <p>Artistic Makeup</p>
+          <p>Ahmed Messes, 11/10/2022</p>
+        </div>
+        <img class='image' src='img/2.jpg'>
+      </li>
+      <li class='item'>
+        <div class='testimonial'>
+          <p>"No past to hold you back"</p>
+          <p>Full Coverage Makeup</p>
+          <p>Jihène Malek, 21/02/2024</p>
+        </div>
+        <img class='image' src='img/3.jpg'>
+      </li>
+    </ul>
+    <nav>
+      <button class='btn' data-index='0'></button>
+      <button class='btn' data-index='1'></button>
+      <button class='btn' data-index='2'></button>
+    </nav>
+  </main>
+  <script>const slider = document.querySelector('.slider');
+    const items = document.querySelectorAll('.item');
+    const btns = document.querySelectorAll('.btn');
+    
+    function reset() {
+      for (let i = 0; i < items.length; i++) {
+        btns[i].classList.remove('expand');
+        items[i].classList.remove('animation');
+      } 
+    }
+    
+    function animate(i) {
+      btns[i].classList.add('expand');
+      items[i].classList.add('animation');
+    }
+    
+    function scrollTo(i) {
+      slider.style.transform = `translateX(${-i * slider.offsetWidth}px)`;
+      reset();
+      animate(i);
+    }
+    
+    const activate = (e) => e.target.matches('.btn') && scrollTo(e.target.dataset.index);
+    
+    const init = () => animate(0);
+    
+    window.addEventListener('load',init,false);
+    window.addEventListener('click',activate,false);</script>
+  </div>
+</div>
+</body>
+<footer>
+  <a href="#top"><h2>BACK TO TOP</h2></a>
+  <div class ='gg'>
+  <div class="left">
+    <h4>Ahmed Messes</h4>
+    <h4>Sidi Bou Said - Carthage, Tunis</h4>
+    <h4>contactahmedmesses@gmail.com</h4>
+    <h4>99071778</h4>
+    <h4>Ahmed Messes</h4>
+  </div>
+  <div class="right">
+    <h4>Remember,</h4>
+    <h4>Live a life that you will remember,</h4>
+    <h4>Never play small,</h4>
+    <h4>live your emotions, but don't be the emotion,</h4>
+    <h4>It's OKAY.</h4>
+    <h4></h4>
+    <h4>- Ahmed Messes</h4>
+  </div>
+</div>
+</footer>
+</html>
